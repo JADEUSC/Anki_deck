@@ -52,20 +52,34 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
-        "1dcc.PNG"
+        "1dcc.JPG",
+        "2dcc.JPG",
+        "bayesth.JPG",
+        "brightnorm.JPG",
+        "decideclass.JPG",
+        "exploss.JPG",
+        "hierpat.JPG",
+        "latex-1ba9b59bdee92f38c1698c784b67ba70f803331d.png",
+        "latex-3db3cfa2238f66be686425aac8c5030f1bafb512.png",
+        "latex-f9225fbc5bfd8fd4a9d5fe70a4f25a5dda1ac273.png",
+        "mle.JPG",
+        "ori.JPG",
+        "parwin.JPG",
+        "tmquant.JPG",
+        "w1if.JPG"
     ],
-    "mid": 1596453312017,
+    "mid": 1596453427010,
     "name": "Deep Learning NN",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "b93ba6b5-d8e0-11ea-a751-a8a15911c7fa",
+            "crowdanki_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
-                    "font": "Arial",
+                    "font": "Nimbus Sans",
                     "media": [],
-                    "name": "Vorderseite",
+                    "name": "Front",
                     "ord": 0,
                     "rtl": false,
                     "size": 20,
@@ -74,7 +88,7 @@
                 {
                     "font": "Arial",
                     "media": [],
-                    "name": "Rückseite",
+                    "name": "Back",
                     "ord": 1,
                     "rtl": false,
                     "size": 20,
@@ -84,14 +98,13 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach (Antwort eintippen)",
+            "name": "Basic",
             "req": [
                 [
                     0,
                     "any",
                     [
-                        0,
-                        1
+                        0
                     ]
                 ]
             ],
@@ -101,15 +114,15 @@
             ],
             "tmpls": [
                 {
-                    "afmt": "{{Vorderseite}}\n\n<hr id=answer>\n\n{{type:Rückseite}}",
+                    "afmt": "{{Front}}\n<hr id=answer>\n{{Back}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "name": "Karte 1",
+                    "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Vorderseite}}\n\n{{type:Rückseite}}"
+                    "qfmt": "{{Front}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
                 }
             ],
             "type": 0,
@@ -121,12 +134,300 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "State the formula for Cross Correlation",
-                "<img src=\"1dcc.PNG\">"
+                "State the formula for 1d Cross Correlation",
+                "<img src=\"1dcc.JPG\">"
             ],
             "flags": 0,
-            "guid": "v<{_&sJ_EJ",
-            "note_model_uuid": "b93ba6b5-d8e0-11ea-a751-a8a15911c7fa",
+            "guid": "t&YU6;g&/l",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State the formula for 2d cross correlation",
+                "<img src=\"2dcc.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "z(r852?l&-",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is the Autocorrelation of a function constructed using Cross correlation?",
+                "Cross correlation with itself"
+            ],
+            "flags": 0,
+            "guid": "ns[R]!{CHQ",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the idea of template matching?",
+                "Recognize a pattern that is similar to a stored template"
+            ],
+            "flags": 0,
+            "guid": "f`O8D3D$cp",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is the quantity measured in template matching?",
+                "<img src=\"tmquant.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "QgQg{^D.44",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State the formula for brightness normialization",
+                "<img src=\"brightnorm.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "h0%R|#2hX(",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the hierarchical structure of pattern recognition?",
+                "<img src=\"hierpat.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "jr=Dy(N7`q",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the difference between supervised and unsupervised learning? State examples.",
+                "Classes are known (supervised) / unknown (unsupervised). Classification/Clustering"
+            ],
+            "flags": 0,
+            "guid": "B[w+j]sSYu",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State the difference between parametric and non parametric approaches.&nbsp;",
+                "Parametric: Assume probability and estimate parameters.&nbsp;<div>Non parametric: Don't assume distribution and estimate the error from the training data.</div>"
+            ],
+            "flags": 0,
+            "guid": "L,QNm$a@}J",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State Bayes Theorem",
+                "<img src=\"bayesth.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "Kh[A{|w|NK",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the a priori, what is the a postiori probability?",
+                "<img src=\"ori.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "w9H?Q|%.Ok",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Given a classification problem, how to decide the class of x?",
+                "<img src=\"decideclass.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "t/41^=Ae]c",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How are the parameters of a distribution calculated, given a set of training data?",
+                "MLE"
+            ],
+            "flags": 0,
+            "guid": "A[,Ud?Ecl%",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State the MLE estimators for the parameters of a univariate normal distribution",
+                "<img src=\"mle.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "G|;rdUMpQE",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some problems in the design of classifiers?",
+                "What/How many features? More features?"
+            ],
+            "flags": 0,
+            "guid": "pJC9_37nMu",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe the curse of dimensionality",
+                "Adding more features at radnom leads to worse results. Trade of between size of training data and number of parameters. This can be solved by reducing the number of parameters (eg careful selection, Pca, ...)"
+            ],
+            "flags": 0,
+            "guid": "p6-7NYLt]G",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe PCA",
+                "The goal is to reduce the number of dimensions with minimal information loss"
+            ],
+            "flags": 0,
+            "guid": "z+FM>ZjH2^",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How does PCA work?",
+                "1. Find the axis along the highest variance<div>2. Transform axis</div><div>3. Remove dimension with lowest variance</div>"
+            ],
+            "flags": 0,
+            "guid": "ya>G,Q4FW#",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the formaula of the expected of an action&nbsp;[latex]a_i[/latex] given state&nbsp;[latex]w_j[/latex]?",
+                "<img src=\"exploss.JPG\"><div>where&nbsp;[latex] /lambda[/latex] is the cost</div>"
+            ],
+            "flags": 0,
+            "guid": "E{X{sjJxKQ",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the optimal action in a general two step classification problem?",
+                "Decide w1 if:<div><img src=\"w1if.JPG\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "o5xZ>>.bVz",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a mixture Gaussian?",
+                "Model distribution with several gaussians. Unsupervised"
+            ],
+            "flags": 0,
+            "guid": "N|5]6](*~t",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is a pdf estimated using parzen windows?",
+                "<img src=\"parwin.JPG\">"
+            ],
+            "flags": 0,
+            "guid": "t7gnfMOBxA",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How is a datapoint classified with k-nearest neighbours?",
+                "1) Find x nearest neighbours<div>2) Determine most freq class in neighbours</div><div>3) Assign x to that class</div>"
+            ],
+            "flags": 0,
+            "guid": "OG,`Dx/E<0",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Desciribe the idea behind the fisher discriminal analysis",
+                "Find orientation of line where projected samples are well separated. Project multidimensional points on line y=wx. FF maximized if high inter cluster distance and low intra cluster distance"
+            ],
+            "flags": 0,
+            "guid": "cfSYyqV4Yn",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can mixture densities be approximated?",
+                "k means clustering"
+            ],
+            "flags": 0,
+            "guid": "K~rbEHmeYA",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         }
     ]
